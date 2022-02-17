@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h3 {
+    font-size: 4.5vw;
+    color: hsl(0, 0%, 100%)
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vw;
+}
+
+p {
+    color: hsl(214, 18%, 50%);
+}
+
+.pancake-style {
+     display:grid;
+    grid-template-rows: auto 1fr auto; 
+    background-color: hsl(217, 54%, 11%)
+}
+
+.flex {
+    display:flex;
+}
+
+
+.flex-end {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    background-color:  hsl(216, 50%, 16%); 
+    margin-top: 10vw;
+    padding-top:2vw;
+    height: 100vw;
+    width: 70%;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+
+
+.img-container {
+    background-image: url(../images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 90%;
+    border-radius: 8px;
+
+}
+
+.txt-container {
+    padding: 3vw;
+}
+
+.txt-container p {
+    line-height: 1.5;
+    padding:3vw 0 1.5vw 0;
+    font-size:3.5vw;
+    font-weight: bolder;
+}
+
+.sub-txt-container h4{
+    flex:1;
+}
+
+.grey-bar{
+    height: 1px;
+    width: 90%;
+    background-color: hsl(215, 32%, 27%)
+}
+
+.bottom-card {
+    padding: 3vw 0 3vw 0 ;
+}
+
+.bottom-card img {
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 2vw;
+}
+
+.bottom-card span {
+    color: hsl(0, 22%, 78%)
+}
+
+.bottom-card p {
+    font-size:3.5vw;
+    font-weight: 700;
+}
