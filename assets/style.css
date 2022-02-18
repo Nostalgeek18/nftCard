@@ -45,6 +45,7 @@ p {
     justify-content: center;
 }
 
+/* Overall container */
 .card-container {
     background-color:  hsl(216, 50%, 16%); 
     margin-top: 10vw;
@@ -69,6 +70,7 @@ p {
     position:relative;
 }
 
+/* Eye icon */
 .img-container::before{
     content:'';
     position:absolute;
@@ -120,6 +122,7 @@ p {
 }
 
 
+/* Bottom of the card. Avatar & name */
 
 .grey-bar{
     height: 1px;
@@ -153,6 +156,7 @@ p {
     font-weight: 700;
 }
 
+/* Media larger than phone */
 @media screen and (min-width: 768px) {
 
 
